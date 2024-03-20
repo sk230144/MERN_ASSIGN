@@ -1,0 +1,53 @@
+.your-table {
+  width: 150%;
+  border-collapse: collapse;
+  margin-left: -120px;
+}
+
+.your-table th,
+.your-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.your-table thead {
+  background-color: #f2f2f2;
+}
+
+.your-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.status-icon {
+  font-size: 20px; /* Adjust icon size as needed */
+  margin-right: 5px; /* Adjust spacing between icons as needed */
+}
+
+.active {
+  color: green; /* Adjust color for active status */
+}
+
+.inactive {
+  color: red; /* Adjust color for inactive status */
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.active-dot {
+  background-color: green;
+}
+
+.inactive-dot {
+  background-color: red;
+}
